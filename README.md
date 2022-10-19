@@ -1,15 +1,9 @@
-# Tower-Of-Hanoi
-Implementation of Generalised Tower of Hanoi problem.
+# About
+The puzzle was introduced to the West by the French mathematician Édouard Lucas in 1883. ---> [Link to the Wikipedia](https://bit.ly/3CHM9H3)
 
-**Main** - implements an application that solves Generalised Tower of Hanoi problem using Frame – Stewart algorithm.
-
-* Moves are printed out in a verbose form during runtime. 
-
-* All the moves are saved in a .txt file in a specific compact format:
-  - First row (representing input): number of discs number of towers source tower destination tower.
-  - Every next row (representing single move): disc number source tower destination tower.
+This program implementes a generalised version of the puzzle. 
 
 
-**CorrectnessCheck** - implements an application that checks the correctness of a solution for the above problem. 
+The implementation is based on the following algorithm:
+<img width="1219" alt="image" src="https://user-images.githubusercontent.com/38240407/196677415-de3f670a-1a0c-44a0-8b47-a8bd74d666a5.png">
 
-* It takes as an input a sequence of moves which is a .txt file formatted as mentioned above.
